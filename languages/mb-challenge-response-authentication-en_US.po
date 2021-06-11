@@ -1,0 +1,53 @@
+# Copyright (C) 2021 MB
+# This file is distributed under the GPL-3.0+.
+
+#. Plugin Name of the plugin
+#. Plugin URI of the plugin
+msgid "mb-challenge-response-authentication"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a short description of what the plugin does. It's displayed in the WordPress admin area."
+msgstr ""
+
+#. Author of the plugin
+msgid "Yeora"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "-"
+msgstr ""
+
+#: admin/class-mb-challenge-response-authentication-admin.php:143
+msgid "CR Authentifizierung erzwingen"
+msgstr "Enforce CR authentication"
+
+#: admin/partials/mb-challenge-response-field-cb.php:18
+msgid "Ja"
+msgstr "Yes"
+
+#: admin/partials/mb-challenge-response-field-cb.php:21
+msgid "Nein"
+msgstr "No"
+
+#: admin/partials/mb-challenge-response-field-cb.php:25
+msgid ""
+"Ja - erzwingt die Challenge Response Authentifizierung. Benutzer mit deaktiviertem JavaScript oder einem älteren Passwort ohne Salt können\r\n"
+"\t\t\tsich nicht mehr anmelden."
+msgstr "Yes - forces challenge response authentication. Users with JavaScript disabled or an older password without salt can no longer log in."
+
+#: admin/partials/mb-challenge-response-field-cb.php:29
+msgid "Nein - erzwingt keine Challenge Response Authentifizierung, bevorzugt diese aber."
+msgstr "No - does not enforce challenge response authentication, but prefers it."
+
+#: includes/custom/mb-password-hasher.php:21
+msgid "Plugin Fehler! Die wp_hash_password() Funktion wurde bereits überschrieben!"
+msgstr "Plugin error! The wp_hash_password() function has already been overwritten!"
+
+#: includes/custom/mb-password-hasher.php:28
+msgid "Plugin Fehler! Die password_hash() Funktion wurde nicht gefunden!"
+msgstr "Plugin error! The password_hash() function was not found!"
+
+#: admin/class-mb-challenge-response-authentication-admin.php:105
+msgid "Challenge Response Authentifizierung"
+msgstr "Challenge Response Authentication"
