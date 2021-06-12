@@ -5,6 +5,8 @@
  * @package Mb_Challenge_Response_Authentication
  */
 
+use MbChallengeResponseAuthentication\Mb_Rest_Endpoint;
+
 /**
  * RestEndPointTest test case.
  */

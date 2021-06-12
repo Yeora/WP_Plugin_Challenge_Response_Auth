@@ -13,6 +13,8 @@
  * @subpackage Mb_Challenge_Response_Authentication/includes
  */
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * The core plugin class.
  *

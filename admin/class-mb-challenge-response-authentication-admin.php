@@ -1,5 +1,7 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * The admin-specific functionality of the plugin.
  *

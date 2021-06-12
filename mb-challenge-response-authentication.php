@@ -17,6 +17,10 @@
  * Domain Path:       /languages
  */
 
+use MbChallengeResponseAuthentication\Mb_Challenge_Response_Authentication;
+use MbChallengeResponseAuthentication\Mb_Challenge_Response_Authentication_Activator;
+use MbChallengeResponseAuthentication\Mb_Challenge_Response_Authentication_Deactivator;
+
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
 	die;

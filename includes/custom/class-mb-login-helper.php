@@ -1,5 +1,7 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * Class Mb_Login_Helper loads login scripts
  */

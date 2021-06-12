@@ -1,5 +1,7 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * Register all actions and filters for the plugin
  *

@@ -1,5 +1,10 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
+use WP_REST_Request;
+use WP_REST_Server;
+
 class Mb_Rest_Endpoint {
 
 	/**

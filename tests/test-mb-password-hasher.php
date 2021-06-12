@@ -5,6 +5,8 @@
  * @package Mb_Challenge_Response_Authentication
  */
 
+use MbChallengeResponseAuthentication\Mb_Password_Hasher;
+
 /**
  * Mb_Password_Hasher_Test test case.
  */

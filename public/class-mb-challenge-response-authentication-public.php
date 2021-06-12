@@ -1,5 +1,7 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * The public-facing functionality of the plugin.
  *

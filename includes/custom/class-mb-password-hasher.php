@@ -1,5 +1,10 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
+use PasswordHash;
+use wpdb;
+
 defined( 'ABSPATH' ) or die( 'No direct access' );
 
 class Mb_Password_Hasher {
@@ -9,7 +14,7 @@ class Mb_Password_Hasher {
 	private const SERVER_HASH_ALGORITHM_OPTIONS = [];
 	private wpdb $wpdb;
 
-	public function __construct( \wpdb $wpdb ) {
+	public function __construct( wpdb $wpdb ) {
 		$this->wpdb = $wpdb;
 	}
 
@@ -59,8 +64,11 @@ class Mb_Password_Hasher {
 	 * @return string
 	 */
 	public function update_hash( string $password, int $user_id ): string {
+
+
+		die( "OK" );
 		$hash   = $this->get_hash( $password );
-		$fields = [ 'user_pass' => $hash, 'user_activation_key' => '' ];
+		$fields = [ 'user_pass' => $hash, 'user_activation_key' => '1' ];
 		$this->wpdb->update( $this->wpdb->users, $fields, [ 'ID' => $user_id ] );
 		wp_cache_delete( $user_id, 'users' );
 

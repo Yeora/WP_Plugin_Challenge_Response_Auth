@@ -1,5 +1,7 @@
 <?php
 
+namespace MbChallengeResponseAuthentication;
+
 /**
  * Fired during plugin deactivation
  *
