@@ -1,12 +1,11 @@
 ## MB Challenge response authentication
-Contributors: mabipress
-Donate link: -
-Tags: hash, security, challenge response
-Requires at least: 5.7.0
-Tested up to: 5.7.2
-Stable tag: 1.0.0
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+- Contributors: mabipress
+- Tags: hash, security, challenge response
+- Requires at least: 5.7.0
+- Tested up to: 5.7.2
+- Stable tag: 1.0.0
+- License: GPLv3
+- License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 This plugin implements challenge response authentication. In addition, the WordPress hasher is replaced by native PHP libraries.
 
